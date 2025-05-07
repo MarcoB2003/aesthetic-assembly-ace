@@ -1,3 +1,4 @@
+
 import * as React from "react";
 import { useForm } from "react-hook-form";
 
@@ -20,21 +21,21 @@ export const Contact = () => {
   return (
     <section id="contact" className="flex flex-col items-center">
       <h2 className="text-white text-5xl font-bold text-center mt-[100px] max-md:text-[40px] max-md:mt-10">
-        Get in touch
+        Entre em contato
       </h2>
       <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-[753px]">
         <div className="flex max-w-full items-stretch gap-[37px] text-sm text-[#4F4F4F] font-bold flex-wrap mt-[82px] max-md:mt-10">
           <div className="flex flex-col items-stretch whitespace-nowrap text-center flex-1">
             <input
               {...register("firstName")}
-              placeholder="Name"
+              placeholder="Nome"
               className="bg-transparent border-b border-[#4F4F4F] pb-2 text-white focus:outline-none focus:border-[#27AE60]"
             />
           </div>
           <div className="flex flex-col items-stretch flex-1">
             <input
               {...register("lastName")}
-              placeholder="Last name"
+              placeholder="Sobrenome"
               className="bg-transparent border-b border-[#4F4F4F] pb-2 text-white focus:outline-none focus:border-[#27AE60]"
             />
           </div>
@@ -53,7 +54,7 @@ export const Contact = () => {
             <input
               {...register("phone")}
               type="tel"
-              placeholder="Phone number"
+              placeholder="Telefone"
               className="bg-transparent border-b border-[#4F4F4F] pb-2 text-white focus:outline-none focus:border-[#27AE60]"
             />
           </div>
@@ -61,7 +62,7 @@ export const Contact = () => {
 
         <textarea
           {...register("message")}
-          placeholder="Message"
+          placeholder="Mensagem"
           className="text-[#4F4F4F] border border-[#4F4F4F] w-full text-sm font-bold mt-[47px] p-4 bg-transparent min-h-[120px] focus:outline-none focus:border-[#27AE60]"
         />
 
@@ -69,7 +70,7 @@ export const Contact = () => {
           type="submit"
           className="w-[143px] max-w-full text-sm text-white font-medium bg-[#27AE60] mt-[29px] px-8 py-3 hover:bg-[#219652] transition-colors"
         >
-          Submit now
+          Enviar
         </button>
       </form>
     </section>

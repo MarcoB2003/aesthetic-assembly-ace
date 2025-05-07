@@ -1,3 +1,4 @@
+
 import * as React from "react";
 
 const InfoCard = ({ icon, title, content }: { icon?: React.ReactNode; title: string; content: string }) => (
@@ -23,22 +24,20 @@ export const About = () => {
   return (
     <section id="about" className="flex flex-col items-center">
       <h2 className="text-white text-5xl font-bold text-center mt-[47px] max-md:text-[40px] max-md:mt-10">
-        About
+        Sobre
       </h2>
       <p className="text-white text-lg font-normal text-center mt-[38px] max-md:max-w-full">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident
+        Desenvolvedor web e editor de vídeos, com experiência de 6 anos em tradução de filmes/vídeos, edição e criação de thumbnails. 
+        Formado em Análise e Desenvolvimento de Sistemas (ADS) em 2025, possui habilidades sólidas em tecnologia, design visual e comunicação. 
+        Atuou também com atendimento ao cliente, gestão de loja e liderança de equipe. Profissional proativo, adaptável e com disponibilidade 
+        para mudança de país, busca crescer no mercado internacional.
       </p>
       <div className="w-full max-w-[1010px] ml-[11px] mt-[65px] max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch">
-          <InfoCard title="Full Name" content="Your name goes here" />
-          <InfoCard icon={true} title="Email Address" content="Your email goes here" />
-          <InfoCard icon={true} title="Twitter" content="Your email goes here" />
-          <InfoCard title="Phone" content="Your name goes here" />
+          <InfoCard title="Nome Completo" content="Marco Antonio Bennes" />
+          <InfoCard icon={true} title="Email" content="marcobennes0@gmail.com" />
+          <InfoCard icon={true} title="LinkedIn" content="linkedin.com/in/marco-bennes-75a6a2248" />
+          <InfoCard title="Celular" content="11 937399990" />
         </div>
       </div>
     </section>
