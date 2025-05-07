@@ -70,7 +70,7 @@ export const Contact = () => {
           type="submit"
           className="w-[143px] max-w-full text-sm text-white font-medium bg-[#27AE60] mt-[29px] px-8 py-3 hover:bg-[#219652] transition-colors"
         >
-          Enviar
+          Enviar agora
         </button>
       </form>
     </section>

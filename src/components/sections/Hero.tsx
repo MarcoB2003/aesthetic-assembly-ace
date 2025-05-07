@@ -1,5 +1,6 @@
 
 import * as React from "react";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 export const Hero = () => {
   return (
@@ -21,12 +22,15 @@ export const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-[59%] ml-5 max-md:w-full max-md:ml-0">
-          <img
-            src="/lovable-uploads/d207ed60-abfb-47eb-a9f6-267e89bb60e5.png"
-            alt="Marco Antonio Bennes"
-            className="aspect-[1] object-contain w-full max-md:max-w-full max-md:mt-10"
-          />
+        <div className="w-[59%] ml-5 max-md:w-full max-md:ml-0 flex items-center justify-center">
+          <Avatar className="h-[400px] w-[400px] max-md:h-[300px] max-md:w-[300px]">
+            <AvatarImage 
+              src="/lovable-uploads/d207ed60-abfb-47eb-a9f6-267e89bb60e5.png"
+              alt="Marco Antonio Bennes"
+              className="object-cover"
+            />
+            <AvatarFallback>MB</AvatarFallback>
+          </Avatar>
         </div>
       </div>
     </section>
