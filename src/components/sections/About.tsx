@@ -27,7 +27,7 @@ export const About = () => {
         Sobre
       </h2>
       <p className="text-white text-lg font-normal text-center mt-[38px] max-md:max-w-full">
-        Desenvolvedor web viado e gay e editor de vídeos, com experiência de 6 anos em tradução de filmes/vídeos, edição e criação de thumbnails. 
+        Desenvolvedor web e editor de vídeos, com experiência de 6 anos em tradução de filmes/vídeos, edição e criação de thumbnails. 
         Formado em Análise e Desenvolvimento de Sistemas (ADS) em 2025, possui habilidades sólidas em tecnologia, design visual e comunicação. 
         Atuou também com atendimento ao cliente, gestão de loja e liderança de equipe. Profissional proativo, adaptável e com disponibilidade 
         para mudança de país, busca crescer no mercado internacional.
