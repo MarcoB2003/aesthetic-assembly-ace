@@ -3,10 +3,10 @@ import * as React from "react";
 
 export const Skills = () => {
   const skills = [
-    "6 anos de experiencia em vídeos",
-    "Ingles Avançando",
-    "2 anos de experiencia em JS",
-    "Otima comunicação"
+    "6 anos de experiência em vídeos",
+    "Inglês Avançado",
+    "2 anos de experiência em JS",
+    "Ótima comunicação"
   ];
 
   return (

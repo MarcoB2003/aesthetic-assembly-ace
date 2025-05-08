@@ -1,4 +1,3 @@
-
 import * as React from "react";
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
@@ -171,20 +170,13 @@ export const Projects = () => {
               
               <div className="flex gap-2 mt-4">
                 <Button 
-                  variant="outline" 
-                  className="border-[#333] text-white hover:bg-[#27AE60] hover:text-white hover:border-[#27AE60]"
+                  className="bg-[#27AE60] text-white hover:bg-white hover:text-black transition-colors"
                   onClick={() => {
                     setSelectedProject(project);
                     setModalOpen(true);
                   }}
                 >
                   Ver detalhes
-                </Button>
-                <Button 
-                  variant="outline" 
-                  className="border-[#333] text-white hover:bg-neutral-800"
-                >
-                  Demo
                 </Button>
               </div>
             </CardContent>
