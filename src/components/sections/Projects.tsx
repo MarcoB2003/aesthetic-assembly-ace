@@ -34,74 +34,74 @@ type ProjectType = {
 const projects: ProjectType[] = [
   {
     id: 1,
-    title: "Plataforma de Cursos Online",
-    description: "Uma plataforma interativa para cursos de vídeo com sistema de avaliação e certificados digitais.",
-    longDescription: "Desenvolvida com foco na experiência do usuário, esta plataforma oferece recursos avançados para criação e consumo de conteúdo em vídeo. Inclui sistema de avaliação, certificados digitais, e dashboards personalizáveis para acompanhamento do progresso dos alunos e métricas para criadores de conteúdo.",
+    title: "Catálogo de Livros Interativo",
+    description: "Um catálogo interativo para exibição de livros com filtros dinâmicos e detalhes ampliados.",
+    longDescription: "Desenvolvido com foco na experiência do leitor, este catálogo digital permite explorar de forma intuitiva nossa coleção de livros. Inclui sistema de categorização, busca avançada, e visualização detalhada com informações sobre autor, sinopse, ano de publicação e estado de conservação de cada exemplar.",
     stack: ["React", "TypeScript", "Tailwind CSS", "Firebase"],
     category: "Front-end",
     images: [
-      "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&h=500",
       "https://images.unsplash.com/photo-1610116306796-6fea9f4fae38?auto=format&fit=crop&w=800&h=500"
     ]
   },
   {
     id: 2,
-    title: "API de Gerenciamento de Conteúdo",
-    description: "Uma API RESTful para gerenciamento de conteúdos em vídeo com recursos de transcodificação e distribuição.",
-    longDescription: "Backend completo para gestão de conteúdo em vídeo, incluindo upload, transcodificação automática, CDN para distribuição global, análise de métricas de visualização e integração com plataformas de monetização. Suporta controle de acesso baseado em papéis e integrações com sistemas de pagamento.",
+    title: "Sistema de Gerenciamento de Acervo",
+    description: "API para controle de estoque, aquisições, vendas e histórico de transações do acervo literário.",
+    longDescription: "Backend completo para gestão de acervo literário, incluindo cadastro de novos títulos, controle de estoque, registro de aquisições, vendas realizadas e histórico de transações. Possui sistema de alertas para livros em falta e relatórios detalhados sobre o desempenho de vendas por autor, gênero e período.",
     stack: ["Node.js", "Express", "MongoDB", "AWS S3"],
     category: "Back-end",
     images: [
-      "https://images.unsplash.com/photo-1633412802994-5c058f151b66?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=800&h=500",
       "https://images.unsplash.com/photo-1607798748738-b15c40d33d57?auto=format&fit=crop&w=800&h=500"
     ]
   },
   {
     id: 3,
-    title: "Dashboard de Análise de Vídeos",
-    description: "Um sistema de análise de engajamento para vídeos com métricas detalhadas e visualizações personalizáveis.",
-    longDescription: "Ferramenta avançada de análise para produtores de conteúdo em vídeo que fornece insights detalhados sobre engajamento do público, retenção de visualizadores, pontos de abandono e comportamento da audiência. Oferece relatórios personalizáveis e recomendações baseadas em dados para otimizar o desempenho do conteúdo.",
+    title: "Dashboard de Análise de Vendas",
+    description: "Sistema de análise de tendências de vendas com métricas detalhadas e relatórios personalizáveis.",
+    longDescription: "Ferramenta avançada de análise para livreiros que fornece insights detalhados sobre o desempenho de vendas, preferências dos clientes, gêneros mais procurados e autores populares. Oferece relatórios personalizáveis e recomendações baseadas em dados para otimizar o estoque e estratégias de venda da livraria.",
     stack: ["React", "Redux", "Chart.js", "Node.js"],
     category: "Front-end",
     images: [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1572059196837-49a60a3e2b5d?auto=format&fit=crop&w=800&h=500",
       "https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=800&h=500"
     ]
   },
   {
     id: 4,
-    title: "Sistema de Comunicação Empresarial",
-    description: "Uma plataforma de comunicação interna para empresas com recursos de vídeo chamadas, mensagens e compartilhamento de arquivos.",
-    longDescription: "Solução completa para comunicação empresarial que integra diversos canais: vídeo conferências, chat em tempo real, compartilhamento de arquivos e gestão de documentos. Desenvolvida com foco em segurança e usabilidade, suporta equipes remotas e híbridas com recursos de agendamento e gravação automática de reuniões.",
-    stack: ["React Native", "WebRTC", "Socket.io", "Firebase"],
-    category: "Other Features",
+    title: "Encanto dos Livros - Website",
+    description: "Site completo de sebo literário com exibição de catálogo, blog de resenhas e sistema de contato via WhatsApp.",
+    longDescription: "Portal completo para divulgação do acervo da livraria Encanto dos Livros, com áreas para destaque de novidades, raridades e promoções. Inclui blog com resenhas literárias, sistema simplificado de busca por título/autor e integração direta com WhatsApp para facilitar o contato entre clientes e livreiro para a finalização das compras.",
+    stack: ["React", "Next.js", "Styled Components", "WhatsApp API"],
+    category: "Front-end",
     images: [
-      "https://images.unsplash.com/photo-1560439513-74b037a25d84?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1521123845560-14093637aa7d?auto=format&fit=crop&w=800&h=500",
       "https://images.unsplash.com/photo-1516387938699-a93567ec168e?auto=format&fit=crop&w=800&h=500"
     ]
   },
   {
     id: 5,
-    title: "Sistema de Tradução Automática",
-    description: "Uma API para tradução automática de legendas em vídeos com suporte para múltiplos idiomas, incluindo inglês avançado.",
-    longDescription: "Desenvolvido para permitir a internacionalização eficiente de conteúdo em vídeo, este sistema utiliza algoritmos de IA para tradução automática de legendas. Suporta mais de 40 idiomas com alta precisão e oferece ferramentas de edição para ajustes finos. Ideal para produtores de conteúdo que buscam alcançar audiências globais.",
-    stack: ["Python", "NLP", "TensorFlow", "RESTful API"],
+    title: "Sistema de Recomendação Literária",
+    description: "API inteligente que sugere livros com base em leituras anteriores, preferências e tendências do mercado.",
+    longDescription: "Algoritmo de recomendação que analisa o histórico de compras, interesses manifestados por clientes e tendências do mercado literário para sugerir títulos relevantes. O sistema aprende constantemente com as interações dos usuários para melhorar a precisão das recomendações, combinando fatores como gênero, autor, época e temáticas.",
+    stack: ["Python", "Machine Learning", "Django", "RESTful API"],
     category: "Back-end",
     images: [
-      "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=800&h=500",
       "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=800&h=500"
     ]
   },
   {
     id: 6,
-    title: "Editor de Vídeo Online",
-    description: "Um editor de vídeo baseado na web com interface intuitiva para edição básica e avançada sem necessidade de download.",
-    longDescription: "Editor de vídeo completo e acessível via navegador, eliminando a necessidade de software desktop pesado. Oferece recursos como corte, transição, adição de textos e efeitos, correção de cor e exportação em diversos formatos. A interface foi projetada para ser intuitiva tanto para iniciantes quanto para profissionais com recursos avançados.",
-    stack: ["JavaScript", "WebAssembly", "FFmpeg", "Canvas API"],
+    title: "Painel Administrativo de Gestão",
+    description: "Interface administrativa para cadastro, atualização e controle de livros, vendas e clientes do sebo.",
+    longDescription: "Painel administrativo completo desenvolvido exclusivamente para o proprietário do sebo gerenciar todo seu negócio. Oferece funcionalidades de CRUD para cadastro de novos títulos, atualização de informações, registros de vendas, controle de estoque e cadastro de clientes frequentes. Inclui geração de relatórios financeiros e sistema de backup automático dos dados.",
+    stack: ["React", "Firebase", "Material UI", "Redux"],
     category: "Other Features",
     images: [
-      "https://images.unsplash.com/photo-1569017388533-ab55855a8312?auto=format&fit=crop&w=800&h=500",
-      "https://images.unsplash.com/photo-1574717024453-e569ec7c7866?auto=format&fit=crop&w=800&h=500"
+      "https://images.unsplash.com/photo-1588666309990-d68f08e3d4a6?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1598618443855-232ee0f819f6?auto=format&fit=crop&w=800&h=500"
     ]
   }
 ];
@@ -238,11 +238,6 @@ export const Projects = () => {
                 className="border-[#333] text-white hover:bg-neutral-800"
               >
                 Ver código
-              </Button>
-              <Button 
-                className="bg-[#27AE60] text-white hover:bg-[#219652]"
-              >
-                Ver demo
               </Button>
             </div>
           </DialogContent>
