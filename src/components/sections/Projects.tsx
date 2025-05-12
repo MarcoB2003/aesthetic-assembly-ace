@@ -64,7 +64,7 @@ const projects: ProjectType[] = [
     stack: ["React", "Redux", "Chart.js", "Node.js"],
     category: "Front-end",
     images: [
-      "https://images.unsplash.com/photo-1572059196837-49a60a3e2b5d?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=500",
       "https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=800&h=500"
     ]
   },
@@ -100,7 +100,7 @@ const projects: ProjectType[] = [
     stack: ["React", "Firebase", "Material UI", "Redux"],
     category: "Other Features",
     images: [
-      "https://images.unsplash.com/photo-1588666309990-d68f08e3d4a6?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800&h=500",
       "https://images.unsplash.com/photo-1598618443855-232ee0f819f6?auto=format&fit=crop&w=800&h=500"
     ]
   }
