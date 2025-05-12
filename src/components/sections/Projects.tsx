@@ -40,8 +40,8 @@ const projects: ProjectType[] = [
     stack: ["React", "TypeScript", "Tailwind CSS", "Firebase"],
     category: "Front-end",
     images: [
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=500",
-      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&h=500"
+      "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1610116306796-6fea9f4fae38?auto=format&fit=crop&w=800&h=500"
     ]
   },
   {
@@ -52,8 +52,8 @@ const projects: ProjectType[] = [
     stack: ["Node.js", "Express", "MongoDB", "AWS S3"],
     category: "Back-end",
     images: [
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&h=500",
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=500"
+      "https://images.unsplash.com/photo-1633412802994-5c058f151b66?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1607798748738-b15c40d33d57?auto=format&fit=crop&w=800&h=500"
     ]
   },
   {
@@ -64,8 +64,8 @@ const projects: ProjectType[] = [
     stack: ["React", "Redux", "Chart.js", "Node.js"],
     category: "Front-end",
     images: [
-      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800&h=500",
-      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&h=500"
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=800&h=500"
     ]
   },
   {
@@ -76,8 +76,8 @@ const projects: ProjectType[] = [
     stack: ["React Native", "WebRTC", "Socket.io", "Firebase"],
     category: "Other Features",
     images: [
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=500",
-      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&h=500"
+      "https://images.unsplash.com/photo-1560439513-74b037a25d84?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1516387938699-a93567ec168e?auto=format&fit=crop&w=800&h=500"
     ]
   },
   {
@@ -88,8 +88,8 @@ const projects: ProjectType[] = [
     stack: ["Python", "NLP", "TensorFlow", "RESTful API"],
     category: "Back-end",
     images: [
-      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800&h=500",
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&h=500"
+      "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=800&h=500"
     ]
   },
   {
@@ -100,8 +100,8 @@ const projects: ProjectType[] = [
     stack: ["JavaScript", "WebAssembly", "FFmpeg", "Canvas API"],
     category: "Other Features",
     images: [
-      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&h=500",
-      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&h=500"
+      "https://images.unsplash.com/photo-1569017388533-ab55855a8312?auto=format&fit=crop&w=800&h=500",
+      "https://images.unsplash.com/photo-1574717024453-e569ec7c7866?auto=format&fit=crop&w=800&h=500"
     ]
   }
 ];
