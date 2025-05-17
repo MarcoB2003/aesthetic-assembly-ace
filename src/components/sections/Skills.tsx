@@ -4,9 +4,20 @@ import * as React from "react";
 export const Skills = () => {
   const skills = [
     "6 anos de experiência em vídeos",
-    "Inglês Avançado",
+    "Inglês avançado",
     "2 anos de experiência em JS",
-    "Ótima comunicação"
+    "Ótima comunicação",
+    "React.js",
+    "TypeScript",
+    "Edição de vídeo",
+    "Design de thumbnails",
+    "Node.js",
+    "Firebase",
+    "MongoDB",
+    "Gestão de equipe",
+    "Atendimento ao cliente",
+    "Banco de dados SQL",
+    "UI/UX Design"
   ];
 
   return (
