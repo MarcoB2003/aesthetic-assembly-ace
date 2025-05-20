@@ -1,21 +1,18 @@
 
 import * as React from "react";
-import { useForm } from "react-hook-form";
-
-interface ContactFormData {
-  firstName: string;
-  lastName: string;
-  email: string;
-  phone: string;
-  message: string;
-}
+import { Button } from "@/components/ui/button";
+import { Mail, Phone } from "lucide-react";
 
 export const Contact = () => {
-  const { register, handleSubmit } = useForm<ContactFormData>();
+  const whatsappNumber = "+5511987654321"; // Replace with your actual WhatsApp number
+  const emailAddress = "contato@encantodoslivros.com"; // Replace with your actual email
 
-  const onSubmit = (data: ContactFormData) => {
-    console.log(data);
-    // Handle form submission
+  const handleWhatsAppClick = () => {
+    window.open(`https://wa.me/${whatsappNumber.replace(/[^0-9]/g, "")}`, "_blank");
+  };
+
+  const handleEmailClick = () => {
+    window.open(`mailto:${emailAddress}`, "_blank");
   };
 
   return (
@@ -23,56 +20,24 @@ export const Contact = () => {
       <h2 className="text-white text-5xl font-bold text-center mt-[100px] max-md:text-[40px] max-md:mt-10">
         Entre em contato
       </h2>
-      <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-[753px]">
-        <div className="flex max-w-full items-stretch gap-[37px] text-sm text-[#4F4F4F] font-bold flex-wrap mt-[82px] max-md:mt-10">
-          <div className="flex flex-col items-stretch whitespace-nowrap text-center flex-1">
-            <input
-              {...register("firstName")}
-              placeholder="Nome"
-              className="bg-transparent border-b border-[#4F4F4F] pb-2 text-white focus:outline-none focus:border-[#27AE60]"
-            />
-          </div>
-          <div className="flex flex-col items-stretch flex-1">
-            <input
-              {...register("lastName")}
-              placeholder="Sobrenome"
-              className="bg-transparent border-b border-[#4F4F4F] pb-2 text-white focus:outline-none focus:border-[#27AE60]"
-            />
-          </div>
-        </div>
-
-        <div className="flex max-w-full items-stretch gap-[37px] text-sm text-[#4F4F4F] font-bold flex-wrap mt-[47px] max-md:mt-10">
-          <div className="flex flex-col items-stretch flex-1">
-            <input
-              {...register("email")}
-              type="email"
-              placeholder="Email"
-              className="bg-transparent border-b border-[#4F4F4F] pb-2 text-white focus:outline-none focus:border-[#27AE60]"
-            />
-          </div>
-          <div className="flex flex-col items-stretch flex-1">
-            <input
-              {...register("phone")}
-              type="tel"
-              placeholder="Telefone"
-              className="bg-transparent border-b border-[#4F4F4F] pb-2 text-white focus:outline-none focus:border-[#27AE60]"
-            />
-          </div>
-        </div>
-
-        <textarea
-          {...register("message")}
-          placeholder="Mensagem"
-          className="text-[#4F4F4F] border border-[#4F4F4F] w-full text-sm font-bold mt-[47px] p-4 bg-transparent min-h-[120px] focus:outline-none focus:border-[#27AE60]"
-        />
-
-        <button
-          type="submit"
-          className="w-[143px] max-w-full text-sm text-white font-medium bg-[#27AE60] mt-[29px] px-8 py-3 hover:bg-[#219652] transition-colors"
+      
+      <div className="flex flex-wrap justify-center gap-8 mt-12">
+        <Button 
+          onClick={handleWhatsAppClick}
+          className="flex items-center gap-2 py-6 px-8 bg-[#25D366] hover:bg-[#128C7E] text-white text-lg"
         >
-          Enviar agora
-        </button>
-      </form>
+          <Phone className="h-6 w-6" />
+          <span>WhatsApp</span>
+        </Button>
+        
+        <Button 
+          onClick={handleEmailClick}
+          className="flex items-center gap-2 py-6 px-8 bg-[#EA4335] hover:bg-[#D93025] text-white text-lg"
+        >
+          <Mail className="h-6 w-6" />
+          <span>Email</span>
+        </Button>
+      </div>
     </section>
   );
 };
