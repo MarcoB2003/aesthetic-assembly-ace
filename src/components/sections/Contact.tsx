@@ -5,7 +5,7 @@ import { Mail, Phone } from "lucide-react";
 
 export const Contact = () => {
   const whatsappNumber = "+5511937399990"; // Updated WhatsApp number
-  const emailAddress = "contato@encantodoslivros.com"; // Replace with your actual email
+  const emailAddress = "marcobennes0@gmail.com"; // Updated email address
 
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${whatsappNumber.replace(/[^0-9]/g, "")}`, "_blank");

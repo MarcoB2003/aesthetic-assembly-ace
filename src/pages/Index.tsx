@@ -21,7 +21,7 @@ const Index = () => {
         <Contact />
       </main>
       <footer className="text-[#4F4F4F] text-sm font-medium mt-40 max-md:mt-10">
-        © Encanto dos Livros 2024
+        © Marco Antonio Bennes
       </footer>
     </div>
   );
